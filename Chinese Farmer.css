@@ -1,0 +1,166 @@
+/* Body, Parts, Headings*/
+
+body {
+    width: 80%;
+    margin: auto;
+    background-image: url("bamboo.png"), url("bamboo-m.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right top;
+    background-attachment: fixed, fixed;
+    background-size: 10% 100%;
+
+    font-family: "Open Sans";
+}
+
+header {
+    width: 50%;
+    background-image: url("bamboo.jpeg");
+    background-size: contain;
+    margin: 25px auto 25px auto;
+    color: palegoldenrod;
+    text-align: center;
+}
+
+#preamble {
+    background-color: rgba(255, 228, 196, 0.6);
+    width: 350px;
+    float: right;
+    border: 3px solid burlywood;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 25px 5px 25px 25px;
+    box-shadow: 10px 10px 5px rgba(189, 195, 199, 0.8);
+}
+
+aside {
+    background-color: rgba(255, 228, 196, 0.6);
+    width: 350px;
+    float: right;
+    border: 3px solid burlywood;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 25px 25px 25px 5px;
+    box-shadow: 10px 10px 5px rgba(189, 195, 199, 0.8);
+}
+
+article {
+    float: left;
+}
+
+#story {
+    background-color: rgba(255, 228, 196, 0.6);
+    width: 75%;
+    margin: 25px auto 25px auto;
+    border: 3px solid burlywood;
+    border-radius: 25px;
+    padding: 5px;
+    box-shadow: 10px 10px 5px rgba(189, 195, 199, 0.8);
+}
+
+img {
+    width: 100%;
+    alignment: center;
+}
+
+#dialogue {
+    background-color: rgba(255, 228, 196, 0.6);
+    width: 75%;
+    margin: 25px auto 25px auto;
+    border: 3px solid burlywood;
+    border-radius: 25px;
+    padding: 5px;
+    box-shadow: 10px 10px 5px rgba(189, 195, 199, 0.8);
+}
+
+#conclusion {
+    background-color: rgba(255, 228, 196, 0.6);
+    width: 75%;
+    margin: 25px auto 25px auto;
+    border: 3px solid burlywood;
+    border-radius: 25px;
+    padding: 5px;
+    box-shadow: 10px 10px 5px rgba(189, 195, 199, 0.8);
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    float: left;
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+/* The Story */
+
+p {
+    font-family: Serif;
+    letter-spacing: 3px;
+    color: midnightblue;
+}
+
+q {
+    margin: 40px auto 40px auto;
+    font-size: 125%;
+    background: rgba(255, 255, 240, 0.8);
+    border-left: 3px dashed;
+    padding-left: 30px;
+    font-style: italic;
+    display: block;
+    width: 50%;
+
+}
+
+q.farmer {
+    border-left-color: forestgreen;
+}
+
+q.villagers {
+    border-left-color: goldenrod;
+}
+
+.good, .bad {
+    text-transform: capitalize;
+}
+
+.bad {
+    color: red;
+}
+
+.good {
+    color: green;
+}
+
+blockquote > p:first-child {
+    font-weight: bold;
+}
+
+/* Table */
+
+table {
+    border-collapse: collapse;
+    background-color: bisque;
+    margin: 25px auto 25px auto;
+    width: 50%;
+
+}
+
+tr:nth-child(even) {
+    background-color: ivory;
+}
+
+/* Links */
+
+a:link {
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
