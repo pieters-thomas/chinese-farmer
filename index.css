@@ -3,7 +3,7 @@
 body {
     width: 80%;
     margin: auto;
-    background-image: url("bamboo.png"), url("bamboo-m.png");
+    background-image: url("images/bamboo.png"), url("images/bamboo-m.png");
     background-repeat: no-repeat, no-repeat;
     background-position: left top, right top;
     background-attachment: fixed, fixed;
@@ -14,7 +14,7 @@ body {
 
 header {
     width: 50%;
-    background-image: url("bamboo.jpeg");
+    background-image: url("images/bamboo.jpeg");
     background-size: contain;
     margin: 25px auto 25px auto;
     color: palegoldenrod;
